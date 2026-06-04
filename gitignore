@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.astro/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Claude Code local settings — leaks local paths + other site names, never commit
+.claude/
+
+# Image generator — keep your master copy in the template folder, not in the repo
+# (prevents the hardcoded Gemini key from ever being published again)
+generate-images.py
+.truck-branded
+public/images/.truck-branded

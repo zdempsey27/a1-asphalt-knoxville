@@ -1,0 +1,8 @@
+# Robots.txt for A1 Asphalt Knoxville
+# https://a1asphaltknoxville.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://a1asphaltknoxville.com/sitemap-index.xml
